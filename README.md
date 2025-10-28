@@ -1,7 +1,14 @@
 # LMS-YouTube
 
-Fork of [Triode's YouTube plugin for API V3](https://forums.slimdevices.com/showthread.php?87731-Announce-YouTube-Plugin&p=631449&viewfull=1#post631449) for [Logitech Media Server](https://github.com/Logitech/slimserver).
-See the support thread here: [forums.slimdevices.com/showthread.php?105840-ANNOUNCE-YouTube-Plugin-(API-v3)](http://forums.slimdevices.com/showthread.php?105840-ANNOUNCE-YouTube-Plugin-(API-v3)&p=857414&viewfull=1#post857414).
+Fork of [philippe44's Youtube Plugin for LMS](https://github.com/philippe44/LMS-YouTube).
+
+Modified to use [yt-dlp](https://github.com/yt-dlp/yt-dlp) to fetch media urls instead of relying on its own logic.
+
+Very first version, there might be dragons.
+
+**Requires a working yt-dlp in `$PATH`.**
+
+Hopefully, this approach means the plugin itself won't break as easily and we can rely on yt-dlp for actually figuring out any changes YT makes.
 
 ## Common pitfalls
 
